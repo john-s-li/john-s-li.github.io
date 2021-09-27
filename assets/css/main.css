@@ -2608,7 +2608,7 @@ input, select, textarea {
 
 	}
 
-	#header > .capstone {
+	#capstone {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2641,7 +2641,16 @@ input, select, textarea {
 		width: 35%;
 	}
 
-	#header > .rss_6141 {
+	#capstone > .inner {
+		-moz-flex-grow: 1;
+		-webkit-flex-grow: 1;
+		-ms-flex-grow: 1;
+		flex-grow: 1;
+		margin: 0 0 2em 0;
+	}
+
+
+	#rss_6141 {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2672,8 +2681,16 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 35%;
-		
 	}
+
+		#rss_6141 > .inner {
+			-moz-flex-grow: 1;
+			-webkit-flex-grow: 1;
+			-ms-flex-grow: 1;
+			flex-grow: 1;
+			margin: 0 0 2em 0;
+	}
+
 
 		#header > * {
 			-moz-flex-shrink: 0;
