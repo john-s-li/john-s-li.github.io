@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Johnathon Li: ME and CS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+        <div id="main">
+
+            <!-- Header -->
+			<header id="header">
+				<div class="capstone">
+					<h1><strong>MS Capstone Project</strong><br />
+					Quadrupedal Locomotion with Periodic Reward Composition
+                    and Deep Reinforcement Learning<br />
+				</div>
+			</header>
+
+            <!-- One -->
+                <section id="one">
+                    <header class="major">
+                        <h2>Overview</h2>
+                    </header>
+                    <p>The development of walking controllers for legged robotics is a complex process 
+                        that involves careful modeling of the system and robust controller design. 
+                        If the model of the system is not perfect, non-negligible uncertainty could 
+                        be introduced into the system, which can result in instability. To counteract 
+                        this effect of uncer- tainty, stochastic methods, namely reinforcement learning (RL), 
+                        have been used to train legged robots to achieve stable gaits. Many of these RL 
+                        methods lie in the domain of imitation learning, but this may be constricting 
+                        to the reinforcement learning policy’s exploration process. In addition, a 
+                        high quality reference tra- jectory must be first defined before the RL training 
+                        process, and this process can be tedious. On the other hand, model-free RL 
+                        methods give learning agents the freedom to explore their state spaces, but 
+                        the resulting gaits may not be optimal nor natural for sim-to-real transfer. 
+                        Recent work created an intuitive way to design reward functions to 
+                        guide a model-free RL agent to learn a spectrum of common bipedal gaits. This 
+                        work balanced the constraining, but well-specified, method of imitation learning 
+                        and freeing, but under-specified, method of model- free RL. Since quadrupeds are 
+                        close relatives of bipeds, there is a natural curiosity to see if this framework 
+                        would work for quadrupeds. This Masters project answered this question.
+                    </p>
+                    <ul class="actions">
+                        <li><a href="../docs/Johnathon Li - MS Report Final Draft-compressed.pdf" class="button">Download Capstone Publication</a></li>
+                    </ul>
+                    <header class="major">
+                        <h2>Results</h2>
+                    </header>
+                    <figure>
+                        <img src="../gifs/Pronk.gif">
+                        <figcaption>Half Cheetah Pronking with PPO</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="../gifs/Gallop.gif">
+                        <figcaption>Half Cheetah Galloping with PPO</figcaption>
+                    </figure>                    
+                </section>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.poptrox.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
